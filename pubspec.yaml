@@ -1,0 +1,51 @@
+name: merlen_messenger_clean
+description: "Децентрализованный мессенджер для локальной сети"
+publish_to: 'none'
+
+version: 1.0.1+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  
+  # СЕТЕВЫЕ БИБЛИОТЕКИ
+  network_info_plus: ^5.0.0
+  web_socket_channel: ^2.4.0
+  
+  # ХРАНЕНИЕ
+  shared_preferences: ^2.2.2
+  
+  # ШИФРОВАНИЕ
+  crypto: ^3.0.3
+  
+  # УПРАВЛЕНИЕ СОСТОЯНИЕМ
+  provider: ^6.1.1
+  
+  # УТИЛИТЫ
+  permission_handler: ^11.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png    # ← ДОБАВЬТЕ ЭТУ СТРОКУ
+
+# ========== НАСТРОЙКИ ИКОНКИ (добавьте это в КОНЕЦ файла) ==========
+flutter_launcher_icons:
+  android: true
+  ios: false                    # iOS не нужен, т.к. вы на Android
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#4CAF50"    # Зелёный фон (lightGreen)
+  adaptive_icon_foreground: "assets/icon.png"
+  min_sdk_android: 21
