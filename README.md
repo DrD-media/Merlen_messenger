@@ -175,8 +175,8 @@ lib/
 <div align="center">
 Сделано с ❤️ для общения без границ
 
-https://img.shields.io/badge/GitHub-DrD--media-181717?logo=github
-https://img.shields.io/badge/Telegram-@Merlen-26A5E4?logo=telegram
+[![GitHub](https://img.shields.io/badge/GitHub-DrD--media-181717?logo=github)](https://github.com/DrD-media)
+[![Telegram](https://img.shields.io/badge/Telegram-@Merlen-26A5E4?logo=telegram)](https://t.me/DrD_Life_one)
 
 ⭐ Поставьте звезду, если проект вам полезен! ⭐
 </div>
@@ -215,14 +215,24 @@ https://img.shields.io/badge/Telegram-@Merlen-26A5E4?logo=telegram
 
 Улучшение функционала и стабильности
 
+---
+
 ## 🤝 Как внести вклад
 
-1. Форкните репозиторий
+1. **Форкните** репозиторий
 
-2. Создайте ветку (git checkout -b feature/amazing-feature)
+2. **Создайте ветку** (`git checkout -b feature/amazing-feature`)
 
-3. Зафиксируйте изменения (git commit -m 'Add amazing feature')
+3. **Зафиксируйте изменения** (`git commit -m 'Add amazing feature'`)
 
-4. Отправьте (git push origin feature/amazing-feature)
+4. **Отправьте** (`git push origin feature/amazing-feature`)
 
-5. Откройте Pull Request
+5. **Откройте Pull Request**
+
+---
+
+<div align="center">
+
+**Спасибо, что используете Merlen Messenger!**
+
+</div>
