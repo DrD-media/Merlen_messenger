@@ -132,6 +132,7 @@ flutter build windows --release
 
 ## 📂 Структура проекта
 
+```bash
 lib/
 ├── main.dart                    # Точка входа
 ├── models/                      # Модели данных
@@ -149,17 +150,20 @@ lib/
 │   ├── chat_screen.dart        # Чат
 │   ├── network_screen.dart     # Поиск устройств
 └── └── manual_connect_screen.dart # Ручное подключение
+```
 
 ## 📡 Как это работает
 
 <div align="center">
+```bash
 ┌─────────────────┐         Wi-Fi         ┌─────────────────┐
 │                 │                       │                 │
-│   📱 Алиса      │ ◄───────────────────► │   📱 Боб        │
+│   📱 Алиса      │ ◄───────────────────►│   📱 Боб        │
 │   192.168.1.100 │                       │   192.168.1.101 │
 │                 │                       │                 │
 │  WebSocket:8080 │                       │  WebSocket:8080 │
 └─────────────────┘                       └─────────────────┘
+```
 </div>
 
 1. Обнаружение: Приложение сканирует подсеть (192.168.1.1-254) в поиске других устройств
@@ -172,6 +176,8 @@ lib/
 Распространяется под лицензией MIT. Смотрите файл LICENSE для деталей.
 
 <div align="center">
+Сделано с ❤️ для общения без границ
+
 https://img.shields.io/badge/GitHub-DrD--media-181717?logo=github
 https://img.shields.io/badge/Telegram-@Merlen-26A5E4?logo=telegram
 
